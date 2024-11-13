@@ -32,7 +32,7 @@ Some messy examples. Needs cleared up.
 var mightBeString: Maybe<string>;
 mightBeString = "I am a string";
 
-var isString: string = Some(mightBeString) ? mightBeString | "I am not a string";
+var isString: string = Some(mightBeString) ? mightBeString : "I am not a string";
 isString == "I am a string"; // true
 isString == "I am not a string" // false
 ```
@@ -40,7 +40,7 @@ isString == "I am not a string" // false
 ```typescript
 var mightBeString: Maybe<string>;
 
-var isString: string = Some(mightBeString) ? mightBeString | "I am not a string";
+var isString: string = Some(mightBeString) ? mightBeString : "I am not a string";
 isString == "I am a string"; // false
 isString == "I am not a string" // true
 ```
