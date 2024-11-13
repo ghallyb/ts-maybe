@@ -28,7 +28,7 @@ that I personally like. Here are some other examples:
 
 Some messy examples. Needs cleared up. 
 
-``` typescript
+```typescript
 var mightBeString: Maybe<string>;
 mightBeString = "I am a string";
 
