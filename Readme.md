@@ -2,15 +2,9 @@
 
 A very simple option type for Typescript inspired by Elm and F#.
 - Option type called `Maybe<T>` which equates to `(T | null | undefined)`.
-- Some typeguards `Some(x)` or `None` for differentiating between states.
+- Some typeguards `Some(x)` or `None(x)` for differentiating between states.
 
 ## References / Inspiration
-
-**Package Name**
-
-There are already a few variations of the Maybe operator available on NPM.
-I've gone with ```Mibby``` which is the scots for ```Maybe``` to distinguish.
-I'm not entirely sure if I'll publish on NPM yet, but just in case.
 
 **Syntax**
 
