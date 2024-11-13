@@ -16,5 +16,5 @@ function None<T>(x: Maybe<T>): x is None {
 export {
     Some, 
     None, 
-    Maybe
+    Maybe,
 }
