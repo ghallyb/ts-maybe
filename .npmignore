@@ -1,1 +1,2 @@
-# empty file to fix prepare issue
+# empty file to fix prepare script issue.
+# alternative is to set files in package.json
